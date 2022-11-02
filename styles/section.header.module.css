@@ -1,0 +1,14 @@
+
+.section__header { padding-block: 80px 0; }
+
+.section__header h2 { margin-block: 30px; }
+
+.section__header h2::after {
+    content: '';
+    display: block;
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background: red;
+    margin-block: 8px 0;
+}

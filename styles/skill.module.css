@@ -1,0 +1,9 @@
+
+.skill__item {
+    display: flex;
+}
+
+.skill__item span {
+    font-weight: var(--fw-500);
+    font-size: var(--fs-sm);
+}
